@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer */
+
+/* grijs #899CA0 en donkergroen #1C2B32) */
+
+
+/* 1. Global Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+/* 2. Typography */
+
+
+body {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 3. Areas */
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*  3.1 Header */
+.mountain {
+    background-image: url("../assets/images/mountains.jpg");
+    width: 1000px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+
+
+}
+
+.mountain h1 {
+    font-size: 4em;
+}
+
+.mountain p {
+    font-size: 0.5em;
+    margin-bottom: 10px;
+
+}
+
+
+.mountain input[type="text"] {
+    background-color: transparent;
+    padding: 10px 60px 10px 10px;
+    margin-top: 8px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border: 2px solid black;
+    font-size: 10px;
+
+
+}
+
+.mountain button[type="submit"] {
+    background-color: black;
+    padding: 10px 20px;
+    margin-top: 8px;
+    margin-left: -5px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 2px solid black;
+    font-size: 10px;
+    color: white;
+
+
+}
+
+/*  3.2 Testimonial */
+.testimonials {
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 10px rgba(128, 128, 128, 0.5);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.quote {
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+
+.testimonial-person {
+    margin-top: 50px;
+    margin-left: 65px;
+
+}
+
+.profile-photo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 25px;
+}
+
+.name-of-person {
+    font: italic 16px 'Poppins', sans-serif;
+    display: block;
+    line-height: 50px;
+}
+
+
+/*  3.3 Support */
+.support img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.support button {
+    background-color: black;
+    border-radius: 50px;
+    padding: 20px 30px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+
+
+}
+
+.support p {
+    padding: 20px 0;
+}
+
+
+/* 3.4 Faq */
+.faq details > summary {
+    margin: 20px;
+    cursor: pointer
+}
+
+
+/* 3.5 Footer */
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
